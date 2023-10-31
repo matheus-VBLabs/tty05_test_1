@@ -53,14 +53,7 @@ module tt_um_count_8_bits  (
 
 
   //input wire clk,
-  output wire A3,
-  output wire A4,
-  output wire A2,
-  output wire A5,
-  output wire A1,
-  output wire A6,
-  output wire A8,
-  output wire A7
+  wire A8, A7, A6, A5, A4, A3, A2, A1;
 
 assign uo_out[7:0] = {A8, A7, A6, A5, A4, A3, A2, A1};
 
